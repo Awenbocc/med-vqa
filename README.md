@@ -9,4 +9,10 @@ We evaluate our proposal on [VQA-RAD dataset](https://www.nature.com/articles/sd
 We propose QCR [**Question-Conditioned Reasoning Module**] and TCR [**Type-Conditioned Reasoning**] modules, which guide the importance selection over multimodal fusion features and learn different reasoning skills for different types of tasks separately. The detailed architecture is shown in the figure below.  
 ![Image text](https://raw.githubusercontent.com/Awenbocc/Med-VQA/master/pics/architecture.png)
 
+## Results
+
+|  | Overall | Open-ended | Closed-ended |
+| :----:| :----: | :----: | :----: |
+| Base | 66.1 | 49.2 | 77.2 | 
+| Our proposal | 71.6 | 60.0 | 79.3|
 
