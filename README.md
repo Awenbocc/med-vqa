@@ -20,6 +20,10 @@ Our proposal achieves significantly increased accuracy in predicting answers to 
 
 ## Training
 
+### 1.Dependence
 ```
-cc
+pip install -r requirements.txt
 ```
+
+### 2.Preparing
+All pre-prepared data can be found in ```data``` package
