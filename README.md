@@ -18,3 +18,8 @@ We propose QCR [**Question-Conditioned Reasoning Module**] and TCR [**Type-Condi
 
 Our proposal achieves significantly increased accuracy in predicting answers to both closed-ended and open-ended questions, especially for open-ended questions.
 
+## Training
+
+```
+cc
+```
