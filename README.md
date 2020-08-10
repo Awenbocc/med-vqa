@@ -30,6 +30,8 @@ All pre-prepared data can be found in ```data``` package
 
 ####  3. Running
 ```
+git clone https://github.com/Awenbocc/Med-VQA.git
+cd ./Med-VQA
 python main.py --gpu 0 --seed 88
 ```
 
