@@ -25,7 +25,7 @@ Our proposal achieves significantly increased accuracy in predicting answers to 
 pip install -r requirements.txt
 ```
 
-####  2. Preparing
+####  2. Preparing data
 All pre-prepared data can be found in ```data``` package
 
 ####  3. Running
@@ -35,8 +35,9 @@ python main.py --gpu 0 --seed 88
 
 ## License  
 MIT License
-## References
 
 
+## Citation
+Please cite following in your publications if they help you
 
 
