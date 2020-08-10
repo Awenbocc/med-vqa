@@ -65,7 +65,7 @@ def parse_args():
 
     # Attention --------------------------------------------------------------------------------------------------------
     # Choices of attention models
-    parser.add_argument('--attention', type=str, default='BAN', choices=['BAN', 'SAN'],
+    parser.add_argument('--attention', type=str, default='BAN', choices=['BAN'],
                         help='the model we use')
 
     # BAN - Bilinear Attention Networks
