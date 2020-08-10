@@ -16,3 +16,5 @@ We propose QCR [**Question-Conditioned Reasoning Module**] and TCR [**Type-Condi
 | Base | 66.1 | 49.2 | 77.2 | 
 | Our proposal | 71.6 | 60.0 | 79.3|
 
+Our proposal achieves significantly increased accuracy in predicting answers to both closed-ended and open-ended questions, especially for open-ended questions.
+
