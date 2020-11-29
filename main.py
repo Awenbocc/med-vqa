@@ -145,6 +145,7 @@ if __name__ == '__main__':
     train_loader = DataLoader(train_dataset, args.batch_size, shuffle=True, num_workers=2,drop_last=False,
                               pin_memory=True)
     val_dataset = None
+    val_loader = None
     # create VQA model and question classify model
     model = BAN_Model(train_dataset, args)
     question_classify = classify_model(d.ntoken,'./data/glove6b_init_300d.npy')
