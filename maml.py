@@ -48,10 +48,10 @@ class SimpleCNN(nn.Module):
 
     def init_conv(self, inp, out, weight, bias, convert=True):
         conv = nn.Conv2d(inp, out, 3, 2, 1, bias=True)
-        if convert:
-           weight = self.convert_to_torch_weight(weight)
-        conv.weight.data = torch.Tensor(weight).float()
-        conv.bias.data = torch.Tensor(bias).float()
+        #if convert:
+         #   weight = self.convert_to_torch_weight(weight)
+        #conv.weight.data = torch.Tensor(weight).float()
+        #conv.bias.data = torch.Tensor(bias).float()
         return conv
 
 if __name__ == '__main__':
