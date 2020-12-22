@@ -1,0 +1,6 @@
+torchvision==0.2.1
+h5py==2.10.0
+pandas==0.24.0
+torch==1.0.0
+numpy==1.16.0
+Pillow==7.2.0
