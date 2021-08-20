@@ -84,7 +84,7 @@ class typeAttention(nn.Module):
         x_f = self.f_fc1(q_final)
         x_f = F.relu(x_f)
         x_f = self.f_fc2(x_f)
-        x_f = F.dropout(x_f)
+        x_f = F.dropout(x_f,p=0.5,training=self.training)
         x_f = F.relu(x_f)
         x_f = self.f_fc3(x_f)
 
@@ -113,7 +113,7 @@ class classify_model(nn.Module):
         x_f = self.f_fc1(q_final)
         x_f = F.relu(x_f)
         x_f = self.f_fc2(x_f)
-        x_f = F.dropout(x_f)
+        x_f = F.dropout(x_f,p=0.5,training=self.training)
         x_f = F.relu(x_f)
         x_f = self.f_fc3(x_f)
 
