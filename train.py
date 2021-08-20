@@ -204,6 +204,7 @@ def evaluate_classifier(model,pretrained_model, dataloader, args,logger):
     closed_ended = 0. #'CLOSED'
     score_close = 0.
     model.eval()
+    pretrained_model.eval()
     
     with torch.no_grad():
         for i,(v, q, a,answer_type, question_type, phrase_type, answer_target) in enumerate(dataloader):
