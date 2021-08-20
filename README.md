@@ -40,6 +40,13 @@ MIT License
 
 
 ## Citation
-Please cite following in your publications if they help you
+Please cite following in your publications if they help you.
+@inproceedings{zhan2020medical,
+  title={Medical visual question answering via conditional reasoning},
+  author={Zhan, Li-Ming and Liu, Bo and Fan, Lu and Chen, Jiaxin and Wu, Xiao-Ming},
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
+  pages={2345--2354},
+  year={2020}
+}
 
 
